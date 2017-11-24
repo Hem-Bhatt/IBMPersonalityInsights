@@ -1,0 +1,27 @@
+doctype strict
+html(lang='en')
+  head
+    title Personality Insights
+    link(rel='stylesheet', href='static/css/landing-page.css')
+    
+  body
+    h1 Personality Analyzer
+    .container
+        div
+            h2 Watson is an IBM supercomputer that combines artificial intelligence (AI) and sophisticated analytical software for optimal performance as a “question answering” machine. The supercomputer is named for IBM's founder, Thomas J. Watson.
+        //-
+            div
+              label Twitter Handle:
+              input(type='text' id='twitter' class='in')
+            div
+              label Quora Handle:
+              input(type='text' id='quora' class='in')
+            div
+              label Anything Else:
+              input(type='text' id='else' class='in')
+        div
+          a.button(href=`http://localhost:3000/analyze`) Personality
+          a.button(href=`http://localhost:3000/data`) Data
+          a.button(href=`http://localhost:3000/consumer`) Consumer Preferences 
+    script(src='static/js/script.js')
+    

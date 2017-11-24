@@ -1,0 +1,19 @@
+doctype strict
+html(lang='en')
+  head
+    title Personality Insights
+  
+    
+  body(bgcolor='#F5F5F5')
+    #maindiv
+      div
+        h1(style='text-align:center') Consumer preferences determined from analyzed personality traits!
+      #consumer 
+        //h1(style='text-align:center') Consumption Preferences!
+        ul
+        -for (var i = 0; i < consumptionData.length; i++)
+            li #{consumptionData[i]}
+        -for (var i = 0; i < unlikely.length; i++)
+            li #{unlikely[i]}
+    script(src='static/js/script.js')
+    
