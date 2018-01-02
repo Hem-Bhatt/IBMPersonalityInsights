@@ -24,10 +24,10 @@ app.set('view engine', 'pug');
 
 // Twit module which scrapes data from twitter!!!
 var T = new Twit({
-  consumer_key:         'YQhpMf5CaajuXErRKcdWue3G7',
-  consumer_secret:      'gKMYYaZTWoA5sexd8pWS12OKzkaTh21AQVxbKkLdNWXTn7NB6j',
-  access_token:         '3269047550-1WMQ0lurpv2UQspGOshadl5blLCGiNOs5g1Tzkz',
-  access_token_secret:  'JBmvp3dUOxQz0f1dVc6OG0LrgkE45dgZu7Oo85tihkh7S',
+  consumer_key:         '',
+  consumer_secret:      '',
+  access_token:         '',
+  access_token_secret:  '',
   timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
 });
 
